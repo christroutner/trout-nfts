@@ -1,0 +1,22 @@
+{
+  "name": "trout-nfts",
+  "version": "1.0.0",
+  "description": "Scripts for creating and managing NFTs on BCH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/trout-nfts.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN copyright.txt",
+  "bugs": {
+    "url": "https://github.com/christroutner/trout-nfts/issues"
+  },
+  "homepage": "https://github.com/christroutner/trout-nfts#readme",
+  "dependencies": {
+    "web3.storage": "4.2.0"
+  }
+}
