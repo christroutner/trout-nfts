@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/christroutner/trout-nfts#readme",
   "dependencies": {
+    "@psf/bch-js": "6.4.0",
+    "slp-mutable-data": "1.11.0",
     "web3.storage": "4.2.0"
   }
 }

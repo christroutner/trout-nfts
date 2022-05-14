@@ -5,7 +5,7 @@
 
 const { Web3Storage, getFilesFromPath } = require("web3.storage");
 
-const FILENAME = './copyright/copyright.txt'
+const FILENAME = './images/trout-token-icon.png'
 
 async function uploadFile() {
   try {
