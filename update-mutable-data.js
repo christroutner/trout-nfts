@@ -16,7 +16,7 @@ const bchjs = new BCHJS()
 // Replace this with your own WIF private key.
 const mdaWif = ''
 
-const cid = 'bafybeicncxzoauzp6trowzo6xu27wcert64pmbv64f7xtnlt4tv4goetja'
+const cid = 'bafybeidgq6jn2owrjfm5zzwzevo4imbdwgnts4jgggry4dr6q64spuc44m'
 
 async function updateMutableData () {
   if(!mdaWif) {

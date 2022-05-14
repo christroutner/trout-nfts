@@ -21,7 +21,7 @@ const GROUP_ID = 'c9c425f2c6352697c6665a53e035cbad8a44c4b1e36491a1838dc4655479aa
 const walletWif = ''
 
 // 2) Key pair for controlling the mutable data.
-const mda = 'bitcoincash:qqd7y7lkmj27xl3zseya2utec432e7twq5nmdvmu82'
+const mda = 'bitcoincash:qz32m7qagawrmyvv8a7eu3gj83zm5s9qjg7k3s5fmr'
 
 const { SlpMutableData } = require('slp-mutable-data/index')
 // const SlpMutableData = require('slp-mutable-data')
@@ -32,9 +32,9 @@ async function createToken () {
   try {
     // Create a 'simple' NFT with a single, undivisiable token and no minting baton.
     const tokenData = {
-      name: 'How to Create a BCH Wallet',
-      ticker: 'TEST01',
-      documentUrl: 'ipfs://bafybeiaytuslmgi7e3mgeqgnob5wazhtksrifxdwtjiuuj6lgdsw7rgp5e'
+      name: 'How to Send BCH and Tokens',
+      ticker: 'TEST02',
+      documentUrl: 'ipfs://bafybeigjujbb55wqr5lns7z7vleg5cfp4yjwqp4swisxpgxl4xsp5tngai'
     }
 
     const txid = await slpMutableData.create.createToken(

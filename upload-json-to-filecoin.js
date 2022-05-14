@@ -18,23 +18,24 @@ const now = new Date()
 // Mutable data
 const JSON_DATA = {
   updated: now.toISOString(),
-  tokenIcon: 'https://bafybeihe7auwgelv4bfen7jufmdp2rkw5amhvu5tbcha7tsybcs7ahv2t4.ipfs.dweb.link/create-wallet-icon.png',
-  tokenInfo: 'https://token.fullstack.cash/?tokenid=175fcd5dd43087394df9cca39055ce368df942aa10bd21459c05a1c89ce69990',
+  tokenIcon: 'https://bafybeiefg3nd5iognbqztkpi5hj34dmwkqfe7v7xeayn2nhhatinmjmzcy.ipfs.dweb.link/send-bch-token-icon.png',
+  tokenInfo: 'https://token.fullstack.cash/?tokenid=d9aafa7acb514c597caf440ae268b5e4e955f2687e05f044cdf8fd9550d9a27b',
   description: 'This is an NFT representing a video. This is a test token.',
   issuer: 'Chris Troutner',
   forSale: false,
+  display: true,
   currentOwner: {
     bchAddr: 'bitcoincash:qqy7jcrm3vmtqs96r878hy2kx90mn84f25ujqw9z5h',
     name: 'Chris Troutner',
     contactEmail: 'chris.troutner@gmail.com'
   },
   content: {
-    youtube: 'https://youtu.be/Tpm34Qkp_Tc',
-    rumble: 'https://rumble.com/v14mxw2-how-to-create-a-bch-wallet.html',
-    odysee: 'https://odysee.com/@trout:5/how-to-create-a-bch-wallet:8',
-    lbry: 'lbry://@trout#5/how-to-create-a-bch-wallet#8',
-    ipfs: 'bafybeiahf7lbfdtxxf2vpgm4ptsfgs5w6smx4cprqmc2zdc7x6yz5hxg5q',
-    filecoin: 'https://bafybeiahf7lbfdtxxf2vpgm4ptsfgs5w6smx4cprqmc2zdc7x6yz5hxg5q.ipfs.dweb.link/create-wallet-2022-02-20_08.05.37.mp4'
+    youtube: 'https://youtu.be/WZRwkLPtkaI',
+    rumble: 'https://rumble.com/v14n00h-how-to-send-bch-and-tokens.html',
+    odysee: 'https://odysee.com/@trout:5/how-to-send-bch-tokens:0',
+    lbry: 'lbry://@trout#5/how-to-send-bch-tokens#0',
+    ipfs: 'bafybeigf3ky5i6fyxwk5bjmtsr6urqmlx4zq2lqathgguytey67iinh4be',
+    filecoin: 'https://bafybeigf3ky5i6fyxwk5bjmtsr6urqmlx4zq2lqathgguytey67iinh4be.ipfs.dweb.link/send-bch-2022-02-20_08.22.45.mp4'
   }
 }
 
